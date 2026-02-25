@@ -7,6 +7,7 @@ import Nav from './Nav';
 import NextMatch from './NextMatch';
 import RecentForm from './RecentForm';
 import RightColumn from './RightColumn';
+import SeasonStats from './SeasonStats';
 import TopScorer from './TopScorer';
 import UpcomingFixts from './UpcomingFixts';
 import UserProfile from './UserProfile';
@@ -30,6 +31,7 @@ function App() {
         <RightColumn>
           <LeagueTable />
           <TopScorer />
+          <SeasonStats />
         </RightColumn>
       </Dashboard>
     </div>

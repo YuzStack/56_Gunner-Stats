@@ -10,7 +10,7 @@ function UpcomingFixts() {
             View All
           </button>
         </div>
-        <ul>
+        <ul className='space-y-4'>
           <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
             <div className='flex items-center justify-between'>
               <div className='flex items-center gap-3'>
