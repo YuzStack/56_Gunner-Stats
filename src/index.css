@@ -10,15 +10,19 @@
 
   --color-dark-border: #2d3b4e;
   --color-light-border: #475569;
+
+  --color-win-accent-fill: #1d3742;
+  --color-draw-accent-fill: #333536;
+  --color-loss-accent-fill: #332c3c;
 }
 
-/* Dark Navyblue – slate-900 */
-/* Light Navyblue – slate-800 */
-/* Lighter Navyblue – slate-700 */
+/* Dark Navyblue – slate-900 (#0F172A) */
+/* Light Navyblue – slate-800 (#1E293B) */
+/* Lighter Navyblue – slate-700 (#334155) */
 
-/* Dark Gray – slate-400 */
-/* Ligh Gray – slate-300 */
+/* Dark Gray – slate-400 (#94A3B8) */
+/* Light Gray – slate-300 (#CBD5E1) */
 
-/* Win Accent – emerald-500 */
-/* Draw Accent – amber-500 */
-/* Loss Accent – red-500 */
+/* Win Accent – emerald-500 (#10B981) */
+/* Draw Accent – amber-500 (#F59E0B) */
+/* Loss Accent – red-500 (#EF4444) */

@@ -4,6 +4,7 @@ import Logo from './Logo';
 import Menu from './Menu';
 import Nav from './Nav';
 import NextMatch from './NextMatch';
+import RecentForm from './RecentForm';
 import UserProfile from './UserProfile';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Dashboard>
         <LeftColumn>
           <NextMatch />
+          <RecentForm />
         </LeftColumn>
       </Dashboard>
     </div>

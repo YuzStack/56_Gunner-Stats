@@ -8,7 +8,7 @@ function NextMatch() {
         <h2 className='text-xl font-bold'>Next Match</h2>
       </div>
 
-      <div className='border-light-border hover:shadow-dark-red space-y-6 rounded-xl border bg-slate-800 p-6 duration-300 ease-in-out hover:shadow-sm'>
+      <div className='border-light-border hover:shadow-dark-red space-y-6 rounded-xl border bg-slate-800 p-3 duration-300 ease-in-out hover:shadow-sm sm:p-6'>
         <div className='flex items-center justify-between'>
           <span className='bg-red-accent text-light-red rounded-full px-3 py-2 text-xs font-medium'>
             Premier League
@@ -30,14 +30,14 @@ function NextMatch() {
           </div>
           <div className='flex flex-col items-center gap-3'>
             <div className='border-light-border flex h-16 w-16 items-center justify-center rounded-full border bg-slate-700'></div>
-            <span className='text-lg font-bold'>West Ham</span>
+            <span className='text-lg font-bold'>Chelsea</span>
           </div>
         </div>
 
         <div className='flex items-center justify-between text-slate-400'>
           <div className='flex items-center gap-2'>
             <Calendar size={16} />
-            <span className='text-sm'>Sun, 16 Apr</span>
+            <span className='text-sm'>Sun, 01 Mar</span>
           </div>
           <div className='flex items-center gap-2'>
             <MapPin size={16} />
