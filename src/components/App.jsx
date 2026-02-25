@@ -1,6 +1,9 @@
+import Dashboard from './Dashboard';
+import LeftColumn from './LeftColumn';
 import Logo from './Logo';
 import Menu from './Menu';
 import Nav from './Nav';
+import NextMatch from './NextMatch';
 import UserProfile from './UserProfile';
 
 function App() {
@@ -11,6 +14,12 @@ function App() {
         <Menu />
         <UserProfile />
       </Nav>
+
+      <Dashboard>
+        <LeftColumn>
+          <NextMatch />
+        </LeftColumn>
+      </Dashboard>
     </div>
   );
 }
