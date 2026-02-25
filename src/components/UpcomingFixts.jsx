@@ -1,0 +1,94 @@
+import { ChevronRight } from 'lucide-react';
+
+function UpcomingFixts() {
+  return (
+    <div className='space-y-4'>
+      <div className='border-light-border rounded-xl border bg-slate-800 p-3 sm:p-6'>
+        <div className='mb-3 flex items-center justify-between'>
+          <h3 className='text-lg font-bold'>Upcoming Fixtures</h3>
+          <button className='text-light-red cursor-pointer text-xs'>
+            View All
+          </button>
+        </div>
+        <ul>
+          <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
+            <div className='flex items-center justify-between'>
+              <div className='flex items-center gap-3'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex flex-col gap-0'>
+                  <p className='group-hover:text-light-red text-base font-semibold duration-300'>
+                    Southampton
+                  </p>
+                  <span className='text-xs text-slate-400'>
+                    Home &bull; 20:00
+                  </span>
+                </div>
+              </div>
+              <div className='flex items-center gap-2'>
+                <span className='text-sm font-medium text-slate-300'>
+                  21 Apr
+                </span>
+                <button className='text-light-border duration-300 group-hover:text-white'>
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
+            <div className='flex items-center justify-between'>
+              <div className='flex items-center gap-3'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex flex-col gap-0'>
+                  <p className='group-hover:text-light-red text-base font-semibold duration-300'>
+                    Man City
+                  </p>
+                  <span className='text-xs text-slate-400'>
+                    Away &bull; 20:00
+                  </span>
+                </div>
+              </div>
+              <div className='flex items-center gap-2'>
+                <span className='text-sm font-medium text-slate-300'>
+                  26 Apr
+                </span>
+                <button className='text-light-border duration-300 group-hover:text-white'>
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
+          </li>
+
+          <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
+            <div className='flex items-center justify-between'>
+              <div className='flex items-center gap-3'>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex flex-col gap-0'>
+                  <p className='group-hover:text-light-red text-base font-semibold duration-300'>
+                    West Ham
+                  </p>
+                  <span className='text-xs text-slate-400'>
+                    Home &bull; 16:00
+                  </span>
+                </div>
+              </div>
+              <div className='flex items-center gap-2'>
+                <span className='text-sm font-medium text-slate-300'>
+                  02 May
+                </span>
+                <button className='text-light-border duration-300 group-hover:text-white'>
+                  <ChevronRight size={18} />
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button className='text-light-red mx-auto flex cursor-pointer text-sm font-medium'>
+        View Full Schedule →
+      </button>
+    </div>
+  );
+}
+
+export default UpcomingFixts;

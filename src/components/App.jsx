@@ -5,6 +5,7 @@ import Menu from './Menu';
 import Nav from './Nav';
 import NextMatch from './NextMatch';
 import RecentForm from './RecentForm';
+import UpcomingFixts from './UpcomingFixts';
 import UserProfile from './UserProfile';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <LeftColumn>
           <NextMatch />
           <RecentForm />
+          <UpcomingFixts />
         </LeftColumn>
       </Dashboard>
     </div>
