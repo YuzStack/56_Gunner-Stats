@@ -1,10 +1,12 @@
 import Dashboard from './Dashboard';
+import LeagueTable from './LeagueTable';
 import LeftColumn from './LeftColumn';
 import Logo from './Logo';
 import Menu from './Menu';
 import Nav from './Nav';
 import NextMatch from './NextMatch';
 import RecentForm from './RecentForm';
+import RightColumn from './RightColumn';
 import UpcomingFixts from './UpcomingFixts';
 import UserProfile from './UserProfile';
 
@@ -23,6 +25,10 @@ function App() {
           <RecentForm />
           <UpcomingFixts />
         </LeftColumn>
+
+        <RightColumn>
+          <LeagueTable />
+        </RightColumn>
       </Dashboard>
     </div>
   );

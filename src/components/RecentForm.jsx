@@ -5,19 +5,19 @@ function RecentForm() {
         Recent Form
       </h3>
       <ul className='flex items-center justify-between'>
-        {/* <li className='flex flex-col items-center gap-2'>
+        <li className='flex flex-col items-center gap-2'>
           <div className='bg-loss-accent-fill flex h-10 w-10 items-center justify-center rounded-full border-2 border-red-500'>
             <span className='text-red-500'>L</span>
           </div>
           <span className='text-xs text-slate-500'>MUN</span>
-        </li> */}
+        </li>
 
-        <li className='flex flex-col items-center gap-2'>
+        {/* <li className='flex flex-col items-center gap-2'>
           <div className='bg-win-accent-fill flex h-10 w-10 items-center justify-center rounded-full border-2 border-emerald-500'>
             <span className='text-emerald-500'>W</span>
           </div>
           <span className='text-xs text-slate-500'>LEE</span>
-        </li>
+        </li> */}
 
         <li className='flex flex-col items-center gap-2'>
           <div className='bg-win-accent-fill flex h-10 w-10 items-center justify-center rounded-full border-2 border-emerald-500'>

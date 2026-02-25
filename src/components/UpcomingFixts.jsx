@@ -14,7 +14,13 @@ function UpcomingFixts() {
           <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
             <div className='flex items-center justify-between'>
               <div className='flex items-center gap-3'>
-                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'>
+                  <img
+                    src='https://upload.wikimedia.org/wikipedia/en/c/c9/FC_Southampton.svg'
+                    alt='Southampton FC'
+                    className='h-6 w-6'
+                  />
+                </div>
                 <div className='flex flex-col gap-0'>
                   <p className='group-hover:text-light-red text-base font-semibold duration-300'>
                     Southampton
@@ -38,7 +44,13 @@ function UpcomingFixts() {
           <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
             <div className='flex items-center justify-between'>
               <div className='flex items-center gap-3'>
-                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'>
+                  <img
+                    src='https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg'
+                    alt='Manchester City FC'
+                    className='h-6 w-6'
+                  />
+                </div>
                 <div className='flex flex-col gap-0'>
                   <p className='group-hover:text-light-red text-base font-semibold duration-300'>
                     Man City
@@ -62,7 +74,13 @@ function UpcomingFixts() {
           <li className='group cursor-pointer rounded-lg bg-slate-900/50 p-4 duration-300 hover:bg-slate-700/50'>
             <div className='flex items-center justify-between'>
               <div className='flex items-center gap-3'>
-                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'></div>
+                <div className='flex h-10 w-10 items-center justify-center rounded-full bg-slate-800'>
+                  <img
+                    src='https://upload.wikimedia.org/wikipedia/en/c/c2/West_Ham_United_FC_logo.svg'
+                    alt='West Ham United FC'
+                    className='h-6 w-6'
+                  />
+                </div>
                 <div className='flex flex-col gap-0'>
                   <p className='group-hover:text-light-red text-base font-semibold duration-300'>
                     West Ham
@@ -84,7 +102,7 @@ function UpcomingFixts() {
           </li>
         </ul>
       </div>
-      <button className='text-light-red mx-auto flex cursor-pointer text-sm font-medium'>
+      <button className='text-light-red mx-auto flex cursor-pointer text-sm font-medium duration-300 hover:text-red-400'>
         View Full Schedule →
       </button>
     </div>
