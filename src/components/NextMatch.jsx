@@ -10,7 +10,7 @@ function NextMatch() {
 
       <div className='border-light-border hover:shadow-dark-red space-y-6 rounded-xl border bg-slate-800 p-3 duration-300 ease-in-out hover:shadow-sm sm:p-6'>
         <div className='flex items-center justify-between'>
-          <span className='bg-red-accent text-primary-accent rounded-full px-3 py-2 text-xs font-medium'>
+          <span className='bg-primary-accent/5 text-primary-accent rounded-full px-3 py-2 text-xs font-medium'>
             Premier League
           </span>
           <span className='flex items-center gap-1.5 text-slate-400'>

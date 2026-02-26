@@ -11,7 +11,7 @@ function LeagueTable() {
           Premier League
         </h3>
 
-        <div className='overflow-x-auto'>
+        <div className='max-w-[92vw] overflow-x-scroll'>
           <table className='w-full text-left text-sm'>
             <thead className='bg-slate-800/50 text-xs text-slate-400 uppercase'>
               <tr>
