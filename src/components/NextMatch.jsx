@@ -4,13 +4,13 @@ function NextMatch() {
   return (
     <div>
       <div className='mb-4 flex items-center gap-2'>
-        <span className='bg-light-red h-6 w-1 rounded-full'></span>
+        <span className='bg-primary-accent h-6 w-1 rounded-full'></span>
         <h2 className='text-xl font-bold'>Next Match</h2>
       </div>
 
       <div className='border-light-border hover:shadow-dark-red space-y-6 rounded-xl border bg-slate-800 p-3 duration-300 ease-in-out hover:shadow-sm sm:p-6'>
         <div className='flex items-center justify-between'>
-          <span className='bg-red-accent text-light-red rounded-full px-3 py-2 text-xs font-medium'>
+          <span className='bg-red-accent text-primary-accent rounded-full px-3 py-2 text-xs font-medium'>
             Premier League
           </span>
           <span className='flex items-center gap-1.5 text-slate-400'>
@@ -32,7 +32,7 @@ function NextMatch() {
           </div>
           <div className='flex flex-col items-center gap-2'>
             <span className='text-3xl font-bold text-slate-500'>VS</span>
-            <span className='text-light-red text-sm'>17:30</span>
+            <span className='text-primary-accent text-sm'>17:30</span>
           </div>
           <div className='flex flex-col items-center gap-3'>
             <div className='border-light-border flex h-16 w-16 items-center justify-center rounded-full border bg-slate-700'>

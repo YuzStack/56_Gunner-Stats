@@ -1,6 +1,6 @@
 function SeasonStats() {
   return (
-    <div className='from-light-red rounded-xl bg-linear-to-br to-[#7F1D1D] p-3 sm:p-6'>
+    <div className='from-primary-accent rounded-xl bg-linear-to-br to-[#7F1D1D] p-3 sm:p-6'>
       <h3 className='mb-4 text-lg font-bold'>Season Stats</h3>
       <div className='grid grid-cols-2 gap-4'>
         <div className='rounded-lg bg-linear-to-br from-[#BF0106] to-[#8C0E10] p-3'>

@@ -7,7 +7,7 @@ function Logo() {
         className='h-10 w-10'
       />
       <div className='text-lg font-bold'>
-        <span>Gunner</span> <span className='text-light-red'>Stats</span>
+        <span>Gunner</span> <span className='text-primary-accent'>Stats</span>
       </div>
     </div>
   );

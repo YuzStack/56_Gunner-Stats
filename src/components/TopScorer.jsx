@@ -13,7 +13,7 @@ function TopScorer() {
         </h3>
 
         <div className='flex items-center gap-4'>
-          <div className='border-light-red flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-full border bg-slate-700'>
+          <div className='border-primary-accent flex h-24 w-24 shrink-0 items-center justify-center overflow-hidden rounded-full border bg-slate-700'>
             <img
               src='https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png'
               alt='Arsenal FC'
@@ -25,7 +25,9 @@ function TopScorer() {
             <span className='mb-4 text-sm text-slate-400'>Right Winger</span>
             <div className='flex items-center gap-5 p-2'>
               <div>
-                <h5 className='text-light-red mb-1.5 text-2xl font-bold'>12</h5>
+                <h5 className='text-primary-accent mb-1.5 text-2xl font-bold'>
+                  12
+                </h5>
                 <p className='text-xs text-[#64748B] uppercase'>Goals</p>
               </div>
               <div className='h-8 w-px bg-[#334155]'></div>
@@ -37,7 +39,7 @@ function TopScorer() {
           </div>
         </div>
       </div>
-      <button className='text-light-red mx-auto flex cursor-pointer text-sm font-medium duration-300 hover:text-red-400'>
+      <button className='text-primary-accent mx-auto flex cursor-pointer text-sm font-medium transition-colors hover:text-red-400'>
         View Squad →
       </button>
     </div>

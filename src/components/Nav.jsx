@@ -1,9 +1,15 @@
-function Nav({ children }) {
+function Nav() {
   return (
-    <nav className='fixed top-0 right-0 left-0 z-10 h-16 border-b border-[#263144] bg-slate-900'>
-      <div className='mx-auto flex h-full max-w-[95%] items-center justify-between px-3 sm:px-6'>
-        {children}
-      </div>
+    <nav className='hidden md:flex md:gap-4'>
+      <button className='cursor-pointer text-sm text-slate-400 transition-colors ease-in-out hover:text-white'>
+        Fixtures
+      </button>
+      <button className='cursor-pointer text-sm text-slate-400 transition-colors ease-in-out hover:text-white'>
+        Standings
+      </button>
+      <button className='cursor-pointer text-sm text-slate-400 transition-colors ease-in-out hover:text-white'>
+        Players
+      </button>
     </nav>
   );
 }
